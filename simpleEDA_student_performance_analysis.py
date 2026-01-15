@@ -1,3 +1,13 @@
+"""
+Student Scores AnalysisThis script performs basic Exploratory Data Analysis (EDA) using pandas.
+Tasks:
+1. Create a DataFrame from raw data
+2. Calculate average scores per subject
+3. Calculate total score for each student
+4. Identify the top-performing student
+5. Find students below average in Math
+6. Add Pass/Fail result based on total score
+"""
 import pandas as pd
 
 def main():
@@ -30,6 +40,7 @@ def main():
     print("Final DataFrame\n",df1,"\n")
 
 main()
+
 
 
 
